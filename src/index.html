@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<meta name="description" content="Static Site Generators (Talk)">
+		<meta name="author" content="Alex Hedley">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<link rel="canonical" href="https://alex-hedley.github.io/talk-static-site-generators" />
+		<link rel="icon" href="favicon.ico" />
+		
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/black.css" id="theme">
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+
+		<title>Static Site Generators (🎙️ Talk)</title>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				
+				<!-- Slide -->
+				<section>
+					<a href="https://alex-hedley.github.io">
+						<img src="images/AlexHedley.jpg" alt="Alex Hedley" style="height: 180px; margin: 0 auto 4rem auto; background: transparent;">
+					</a>
+					<h3>Static Site Generators</h3>
+					<p>
+						<small>Created by <a href="https://alexhedley.com/">Alex Hedley</a></small>
+					</p>
+				</section>
+				
+				<!-- Slide -->
+				<section>
+					<h2>Site Generators</h2>
+					<ul>
+						<li><a href="https://jekyllrb.com/" target="_blank">Jekyll</a> Ruby</li>
+						<li><a href="https://11ty.dev/" target="_blank">Eleventy</a> JS</li>
+						<li><a href="http://middlemanapp.com/" target="_blank">Middleman</a> Ruby</li>
+						<li><a href="https://dotnet.github.io/docfx" target="_blank">DocFX</a> C#</li>
+						<li><a href="https://gohugo.io/" target="_blank">Hugo</a> Go</li>
+						<li><a href="http://www.mkdocs.org/" target="_blank">MkDocs</a> python</li>
+					</ul>
+				</section>
+
+				<!-- Slide -->
+				<section>
+					<h2>Examples</h2>
+
+					<h3>Jekyll</h3>
+					<ul>
+						<li><a href="https://pages.github.com" target="_blank">GitHub Pages</a></li>
+					</ul>
+				</section>
+
+				<!-- Slide -->
+				<section>
+					<h2>Examples</h2>
+
+					<h3>MkDocs</h3>
+					<ul>
+						<li><a href="https://github.com/ministryofjustice/template-documentation-site" target="_blank">MoJ</a> Doc Site</li>
+						<li><a href="https://ministryofjustice.github.io/mkdocs-tech-docs-template/" target="_blank">Sample</a></li>
+					</ul>
+				</section>
+
+				<!-- Slide -->
+				<section>
+					<h2>Examples</h2>
+
+					<h3>DocFX</h3>
+					<ul>
+						<li><a href="https://learn.microsoft.com/en-gb/dotnet/core/introduction" target="_blank">.NET Docs</a></li>
+					</ul>
+				</section>
+				
+				<!-- Slide -->
+				<section>
+					<h1>Demo</h1>
+
+					<aside class="notes">
+						Try out the GovUK Design History template: https://github.com/x-govuk/govuk-design-history-template (https://github.com/alex-hedley/design-history).
+					</aside>
+				</section>
+
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/zoom/zoom.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/search/search.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				center: true,
+				hash: true,
+				plugins: [ RevealZoom, RevealNotes, RevealSearch, RevealMarkdown, RevealHighlight ]
+			});
+		</script>
+	</body>
+</html>
